@@ -1,0 +1,173 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(185, 75%, 39%);
+}
+.parent svg:first-of-type {
+  position: absolute;
+  left: -250px;
+  top: -550px;
+  transform: rotate(20deg);
+}
+@media (max-width: 375px) {
+  .parent svg:first-of-type {
+    transform: rotate(174deg);
+    left: -750px;
+    top: -550px;
+  }
+}
+.parent svg {
+  position: absolute;
+  right: -250px;
+  transform: translateY(450px);
+}
+@media (max-width: 375px) {
+  .parent svg {
+    right: -700px;
+  }
+}
+.parent .card {
+  position: relative;
+  left: 750px;
+  transform: translateX(-50%);
+  top: 140px;
+  background-color: white;
+  width: 400px;
+  height: 460px;
+  background-image: url(images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+  box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+}
+@media (max-width: 375px) {
+  .parent .card {
+    left: 180px;
+    top: 250px;
+    width: 340px;
+    height: 380px;
+  }
+}
+
+.parent .card .image img {
+  max-width: 100%;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 135px;
+  top: 120px;
+  border: 10px solid white;
+}
+@media (max-width: 375px) {
+  .parent .card .image img {
+    left: 110px;
+    top: 90px;
+  }
+}
+.parent .card h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: hsl(229, 23%, 23%);
+  text-align: center;
+  padding-top: 260px;
+}
+@media (max-width: 375px) {
+  .parent .card h1 {
+    padding-top: 220px;
+  }
+}
+.parent .card h1 span {
+  color: hsl(227, 10%, 46%);
+  font-size: 18px;
+  font-weight: normal;
+}
+.parent .card .headline {
+  color: hsl(227, 10%, 46%);
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  top: 280px;
+  left: 165px;
+}
+@media (max-width: 375px) {
+  .parent .card .headline {
+    top: 230px;
+    left: 140px;
+  }
+}
+.parent .card hr {
+  margin-top: 70px;
+  color: hsl(0, 0%, 59%);
+}
+@media (max-width: 375px) {
+  .parent .card hr {
+    margin-top: 50px;
+  }
+}
+.card .stats {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card .stats .info h1 {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  margin-left: -25px;
+  font-size: 20px;
+}
+@media (max-width: 375px) {
+  .card .stats .info h1 {
+    top: 80px;
+  }
+}
+
+.card .stats .info .ff,
+.card .stats .info .ll,
+.card .stats .info .pp {
+  position: absolute;
+  top: 395px;
+  font-size: 13px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+@media (max-width: 375px) {
+  .card .stats .info .ff,
+  .card .stats .info .ll,
+  .card .stats .info .pp {
+    top: 325px;
+  }
+}
+
+.card .stats .info .ff {
+  margin-left: -35px;
+}
+.card .stats .info .ll {
+  margin-left: -20px;
+}
+.card .stats .info .pp {
+  margin-left: -25px;
+}
+.footer {
+  font-size: 15px;
+  position: absolute;
+  top: 780px;
+  left: 530px;
+}
+.footer a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 375px) {
+  .footer {
+    font-size: 13px;
+    position: absolute;
+    top: 730px;
+    left: 20px;
+  }
+}
+a:visited {
+  color: blueviolet;
+}
