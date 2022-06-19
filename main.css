@@ -151,13 +151,13 @@ body {
 .card .stats .info .pp {
   margin-left: -25px;
 }
-.footer {
+footer {
   font-size: 15px;
   position: absolute;
   top: 780px;
   left: 530px;
 }
-.footer a {
+footer a {
   color: hsl(228, 45%, 44%);
 }
 @media (max-width: 375px) {
